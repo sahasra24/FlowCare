@@ -28,7 +28,20 @@ Frontend terminal (from project root):
     python -m http.server 3000
 
 Open http://localhost:3000 and API docs at http://localhost:8000/docs
+### FlowCare Interface
+<img src="screenshots/1.png" width="800">
 
+### Live Queue Management
+<img src="screenshots/2.png" width="800">
+
+### Appointment & Walk-In Management
+<img src="screenshots/3.png" width="800">
+
+### Service Availability Calendar
+<img src="screenshots/4.png" width="800">
+
+### Queue & Scheduling Features
+<img src="screenshots/5.png" width="800">
 ## Important demo note
 SMS and email are intentionally simulated so the project runs without paid credentials. `/api/notifications` shows every message that would be sent. For production, connect Twilio (SMS) and an email provider in the `notification()` function and store credentials in `.env`.
 
