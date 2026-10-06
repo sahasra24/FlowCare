@@ -42,6 +42,9 @@ Open http://localhost:3000 and API docs at http://localhost:8000/docs
 
 ### Queue & Scheduling Features
 <img src="screenshots/5.png" width="800">
+
+
+
 ## Important demo note
 SMS and email are intentionally simulated so the project runs without paid credentials. `/api/notifications` shows every message that would be sent. For production, connect Twilio (SMS) and an email provider in the `notification()` function and store credentials in `.env`.
 
