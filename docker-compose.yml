@@ -1,0 +1,10 @@
+services:
+  backend:
+    build: ./backend
+    ports: ["8000:8000"]
+  frontend:
+    image: python:3.12-slim
+    working_dir: /site
+    volumes: ["./frontend:/site"]
+    command: python -m http.server 3000 --bind 0.0.0.0
+    ports: ["3000:3000"]
